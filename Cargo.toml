@@ -1,6 +1,8 @@
 [package]
 name = "ip_sniffer"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 
 [dependencies]
+tokio = {version = "1", features = ["full"]}
+bpaf = {version = "0.7", features = ["derive", "bright-color"]}
